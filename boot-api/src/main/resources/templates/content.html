@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
+    <title>内容管理</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../static/css/bootstrap-bankand.css"/>
+    <link rel="stylesheet" href="../static/css/animate.css"/>
+</head>
+<body>
+<div th:replace="header.html"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="list-group">
+                <a class="active list-group-item" href="content.html">
+                    内容管理
+                </a>
+                <a class="list-group-item" href="content_add.html">
+                    内容添加
+                </a>
+            </div>
+        </div>
+        <div class="col-md-10">
+
+            <div class="page-header">
+                <h3>内容管理</h3>
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="content.html">内容管理</a></li>
+                <li><a href="content_add.html">内容添加</a></li>
+            </ul>
+
+            <table class="table user">
+                <thead>
+                <tr>
+                    <th>文章标题</th>
+                    <th>作者</th>
+                    <th>发布时间</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th>泛Mooc职业教育， 效果和就业为王</th>
+                    <td>朱朝兵</td>
+                    <td>2015/08/08</td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                操作
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">&nbsp;&nbsp;编辑</a></li>
+                                <li><a href="#">&nbsp;&nbsp;删除</a></li>
+                                <li><a href="#">&nbsp;&nbsp;置顶</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>泛Mooc职业教育， 效果和就业为王</th>
+                    <td>朱朝兵</td>
+                    <td>2015/08/08</td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                操作 <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">&nbsp;&nbsp;编辑</a></li>
+                                <li><a href="#">&nbsp;&nbsp;删除</a></li>
+                                <li><a href="#">&nbsp;&nbsp;置顶</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>泛Mooc职业教育， 效果和就业为王</th>
+                    <td>朱朝兵</td>
+                    <td>2015/08/08</td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                操作 <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">&nbsp;&nbsp;编辑</a></li>
+                                <li><a href="#">&nbsp;&nbsp;删除</a></li>
+                                <li><a href="#">&nbsp;&nbsp;置顶</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>泛Mooc职业教育， 效果和就业为王</th>
+                    <td>朱朝兵</td>
+                    <td>2015/08/08</td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                操作 <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">&nbsp;&nbsp;编辑</a></li>
+                                <li><a href="#">&nbsp;&nbsp;删除</a></li>
+                                <li><a href="#">&nbsp;&nbsp;置顶</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>泛Mooc职业教育， 效果和就业为王</th>
+                    <td>朱朝兵</td>
+                    <td>2015/08/08</td>
+                    <td>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                操作 <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">&nbsp;&nbsp;编辑</a></li>
+                                <li><a href="#">&nbsp;&nbsp;删除</a></li>
+                                <li><a href="#">&nbsp;&nbsp;置顶</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+
+            <nav>
+                <ul class="pagination pull-right">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<div th:replace="footer.html"></div>
+<script type="text/javascript">
+    checkNav('content');
+</script>
+</body>
+</html>

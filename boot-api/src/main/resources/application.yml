@@ -1,0 +1,27 @@
+server:
+  port: 8083
+
+spring:
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+  mvc:
+    static-path-pattern: /static/**
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false
+
+
+# dubbo springboot 配置
+dubbo:
+  application:
+    name: boot-api
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: rmi
+    port: 11889
+  provider:
+    timeout: 1000
+  scan:
+    base-packages: com.sgcai.boot.service

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/boot-api.iml" filepath="$PROJECT_DIR$/boot-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../boot-core/boot-core.iml" filepath="$PROJECT_DIR$/../boot-core/boot-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../boot-service/boot-service.iml" filepath="$PROJECT_DIR$/../boot-service/boot-service.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,47 @@
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+
+.wh64 {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.mar-t15 {
+    margin-top: 15px;
+}
+
+.mar-r15 {
+    margin-right: 15px;
+}
+
+.mar-l15 {
+    margin-left: 15px;
+}
+
+.mar-15 {
+    margin: 15px;
+}
+
+footer {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.user {
+    padding: 15px;
+    border: solid 1px #ddd;
+    border-top: none;
+}
+
+.user-search {
+    padding: 15px;
+    border: solid 1px #ddd;
+    border-top: none;
+}
+
+.input-box-none {
+    border: none;
+    outline:medium
+}
